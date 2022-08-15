@@ -26,6 +26,7 @@ import "./SafeMath.sol";
  * Finally, the non-standard {decreaseAllowance} and {increaseAllowance}
  * functions have been added to mitigate the well-known issues around setting
  * allowances. See {ITRC20-approve}.
+ * demo
  */
 contract TRC20 is ITRC20 {
     using SafeMath for uint256;
